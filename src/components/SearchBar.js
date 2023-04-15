@@ -10,10 +10,10 @@ function SearchBar({ searchBarStyle }) {
         <Form style={{...searchBarStyle}} className="container-fluid">
             <Form.Group>
                 <Row>
-                    <Col xs={8} sm={9} md={10} lg={11} style={{padding: 0, paddingLeft: "1%"}}>
+                    <Col xs={8} sm={8} md={8} lg={9} style={{padding: 0, paddingLeft: "1%"}}>
                         <Form.Control type="text" placeholder="Search.."></Form.Control>
                     </Col>
-                    <Col xs={4} sm={3} md={2} lg={"auto"} style={{padding: 0}}>
+                    <Col xs={4} sm={4} md={4} lg={3} style={{padding: 0}}>
                         <Button variant="primary" type="Submit" onClick={(e) => e.preventDefault()}> <SearchIcon></SearchIcon> Submit</Button>
                     </Col>
                 </Row>
