@@ -42,18 +42,18 @@ export default function Display() {
             </CardSet>
           </Row>
           <Row>
-            <Container style={{marginLeft: "15vw", marginRight: "15vw", paddingTop: "15%"}}>
-              <p>Title: </p>
-              <p>Creator: </p>
-              <p>Publisher: </p>
-              <p>Source: </p>
-              <p>Format: </p>
-              <p>Language: </p>
-              <p>Type: </p>
-              <p>Identifier: </p>
-              <p>Coverage: </p>
-              <p>Original Format: </p>
-              <p>Call Number: </p>
+            <Container fluid style={{paddingTop: "15%"}}>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Title: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Creator: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Publisher: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Source: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Format: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Language: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Type: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Identifier: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Coverage: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Original Format: </p>
+              <p style={{marginLeft: "15vw", marginRight: "15vw"}}>Call Number: </p>
             </Container>
           </Row>
         </Container>
