@@ -30,7 +30,7 @@ function Items() {
           leftStyle={{paddingLeft: "1%"}}
           rightStyle={{paddingLeft: "3%", paddingTop: "2%"}}
         />
-        <SearchBar searchBarStyle={{marginTop: "1%", textAlign: "center"}}/>
+        <SearchBar searchBarStyle={{marginTop: "1%"}}/>
         <div style={{minHeight: "100vh"}}>
             <CardSet paddingY={3} marginY={3} useRows={true}>
                 <CardItem navigateTo={"/display/1"} imageContainerSize={3} textContainerSize={9} cardDirection="horizontal" textDirection="left" imageSrc={PlaceholderImg} description="yes" cardStyle={{width: "100vw"}} textStyle={{textDecoration: "none !important"}}></CardItem>
