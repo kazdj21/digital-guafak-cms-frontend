@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Digital Guafak CMS - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend for the Digital Guafak CMS
 
 ## Available Scripts
 
